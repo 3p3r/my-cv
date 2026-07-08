@@ -6,7 +6,7 @@ Personal CV ([RenderCV](https://docs.rendercv.com)) + [Resume-Matcher](https://g
 
 **Published resume:** [`README.md`](README.md) is generated from RenderCV on `npm run build` — do not edit it by hand.
 
-**Live CV site:** [https://3p3r.github.io/mycv/](https://3p3r.github.io/mycv/) — HTML deployed via GitHub Actions on every push to `main`.
+**Live CV site:** [https://3p3r.github.io/my-cv/](https://3p3r.github.io/my-cv/) — HTML deployed via GitHub Actions on every push to `main`.
 
 ## Prerequisites
 
@@ -61,7 +61,7 @@ Outputs:
 
 The workflow [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) renders HTML-only output and publishes to GitHub Pages.
 
-- **URL:** https://3p3r.github.io/mycv/
+- **URL:** https://3p3r.github.io/my-cv/
 - **Trigger:** every push to `main` (or manual run)
 - **One-time setup:** repo **Settings → Pages → Build and deployment → Source: GitHub Actions**
 

@@ -28,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/3p3r/mycv/issues"
   },
-  "homepage": "https://3p3r.github.io/mycv/",
+  "homepage": "https://3p3r.github.io/my-cv/",
   "devDependencies": {
     "@biomejs/biome": "^2.5.2",
     "tsx": "^4.23.0",
