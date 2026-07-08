@@ -3,26 +3,25 @@
 - Email: [human@shadowofsep.com](mailto:human@shadowofsep.com)
 - Location: Portland, OR
 - Website: [shadowofsep.com](https://shadowofsep.com/)
-- LinkedIn: [sep-lol-182488419](https://linkedin.com/in/sep-lol-182488419)
 
 
 # Education
-## **Portland State University**, MSc in Electrical Engineering — Signal Processing -- Portland, OR
+## **Portland State University**, MSc. in Signal Processing -- Portland, OR
 
-**MSc**
-
-
-2017 – present
-
-- Thesis: off-the-shelf SLAM solutions for tracking human kinematics
-
-- Published first-author paper in Sensors (Dec 2022) on SLAM feasibility for human kinematics
+**MSc.**
 
 
+2017 – May 2023
 
-## **Portland State University**, BSc in Electrical Engineering — Signal Processing -- Portland, OR
+- Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) — SLAM for tracking human kinematics; advisor James McNames
 
-**BSc**
+- First-author article in Sensors (Dec 2022) based on thesis research
+
+
+
+## **Portland State University**, BSc. in Electrical Engineering -- Portland, OR
+
+**BSc.**
 
 
 2013 – 2017
@@ -30,15 +29,39 @@
 
 
 # Publications
-## **Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)**
+## **BodySLAM: Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)**
+
+Apr 2023
+
+Thesis version of Sensors (2022) article; advisor James McNames
+
+*Sepehr Laal*
+
+[10.15760/etd.3557](https://doi.org/10.15760/etd.3557) (M.S. Thesis, Portland State University, ECE)
+
+
+
+## **Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping**
 
 Dec 2022
 
-Open-access article (Special Issue on Smart and Personalized Healthcare); first author; PSU ECE
+Journal article from thesis research (Special Issue on Smart and Personalized Healthcare); first author; PSU ECE
 
 *Sepehr Laal*, Paul Vasilyev, Sean Pearson, Mateo Aboy, James McNames
 
 [10.3390/s22239378](https://doi.org/10.3390/s22239378) (Sensors 2022, 22(23), 9378)
+
+
+
+## **Validation of Media Using Fingerprinting**
+
+Sept 2021
+
+Granted patent for media validation using Wavelet Decomp fingerprinting; sole inventor; AWS Elemental
+
+*Sepehr Laal*
+
+[patents.google.com/patent/US11134279B1/en](https://patents.google.com/patent/US11134279B1/en) (US 11,134,279 B1, Amazon Technologies Inc)
 
 
 
@@ -108,7 +131,7 @@ Aug 2017 – July 2019
 
 2017 – 2018
 
-- Led a research project creating a patent-pending automated golden-ear testing system
+- Led a research project creating an automated golden-ear testing system, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
 
 - Implemented Waveprint efficient wavelet-based audio fingerprinting in CudaC++
 

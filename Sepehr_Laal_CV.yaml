@@ -1,32 +1,47 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Sepehr Laal
-  headline: Signal processing researcher and senior software engineer with published work on SLAM-based human kinematics tracking, 6+ years building cloud video, WebRTC, and serverless systems. Experienced in AWS automation, CI/CD, and R&D including patent-pending audio testing at AWS Elemental.
+  headline: Published author, patent holder and senior VP with 5+ years in FinServ and 5+ years in Cloud Infrastructure.
   location: Portland, OR
   email: human@shadowofsep.com
   website: https://shadowofsep.com
-  social_networks:
-    - network: LinkedIn
-      username: sep-lol-182488419
+  custom_connections:
+    - placeholder: anonymized linkedin
+      url: https://www.linkedin.com/in/sep-lol-182488419
+      fontawesome_icon: linkedin
+    - placeholder: Github
+      url: https://github.com/3p3r
+      fontawesome_icon: github
+    - placeholder: Social
+      url: https://x.com/3p3r_
+      fontawesome_icon: x-twitter
   sections:
     education:
       - institution: Portland State University
-        area: Electrical Engineering — Signal Processing
-        degree: MSc
+        area: Signal Processing
+        degree: MSc.
         start_date: 2017
-        end_date: present
+        end_date: 2023-05
         location: Portland, OR
         highlights:
-          - 'Thesis: off-the-shelf SLAM solutions for tracking human kinematics'
-          - 'Published first-author paper in Sensors (Dec 2022) on SLAM feasibility for human kinematics'
+          - 'Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) — SLAM for tracking human kinematics; advisor James McNames'
+          - 'First-author article in Sensors (Dec 2022) based on thesis research'
       - institution: Portland State University
-        area: Electrical Engineering — Signal Processing
-        degree: BSc
+        area: Electrical Engineering
+        degree: BSc.
         start_date: 2013
         end_date: 2017
         location: Portland, OR
     publications:
-      - title: 'Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)'
+      - title: 'BodySLAM: Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)'
+        authors:
+          - '*Sepehr Laal*'
+        journal: M.S. Thesis, Portland State University, ECE
+        doi: 10.15760/etd.3557
+        url: https://pdxscholar.library.pdx.edu/open_access_etds/6412/
+        date: 2023-04
+        summary: Thesis version of Sensors (2022) article; advisor James McNames
+      - title: 'Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping'
         authors:
           - '*Sepehr Laal*'
           - Paul Vasilyev
@@ -37,7 +52,14 @@ cv:
         doi: 10.3390/s22239378
         url: https://www.mdpi.com/1424-8220/22/23/9378
         date: 2022-12
-        summary: Open-access article (Special Issue on Smart and Personalized Healthcare); first author; PSU ECE
+        summary: Journal article from thesis research (Special Issue on Smart and Personalized Healthcare); first author; PSU ECE
+      - title: 'Validation of Media Using Fingerprinting'
+        authors:
+          - '*Sepehr Laal*'
+        journal: US 11,134,279 B1, Amazon Technologies Inc
+        url: https://patents.google.com/patent/US11134279B1/en
+        date: 2021-09
+        summary: Granted patent for media validation using Wavelet Decomp fingerprinting; sole inventor; AWS Elemental
     certifications:
       - bullet: 'AWS Certified DevOps Engineer Professional (2019) — Verification RNXRXBF1F2QE1C59'
       - bullet: 'AWS Certified Developer Associate (2019) — Verification 02514XVKMJBQQ2WS'
@@ -85,7 +107,7 @@ cv:
         end_date: 2018
         location: Portland, OR
         highlights:
-          - Led a research project creating a patent-pending automated golden-ear testing system
+          - Led a research project creating an automated golden-ear testing system, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
           - Implemented Waveprint efficient wavelet-based audio fingerprinting in CudaC++
           - Used automated golden-ear testing to reveal undiscovered bugs in the audio transcoder
           - Implemented new features and fixed bugs in the Elemental Live product
@@ -138,6 +160,9 @@ design:
   theme: harvard
   page:
     size: us-letter
+  header:
+    connections:
+      show_icons: true
 locale:
   language: english
 settings:
