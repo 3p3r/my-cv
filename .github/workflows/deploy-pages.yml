@@ -35,8 +35,7 @@ jobs:
           rendercv render Sepehr_Laal_CV.yaml \
             --dont-generate-pdf \
             --dont-generate-typst \
-            --dont-generate-png \
-            --dont-generate-markdown
+            --dont-generate-png
           mkdir -p site
           cp rendercv_output/Sepehr_Laal_CV.html site/index.html
 

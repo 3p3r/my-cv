@@ -18,7 +18,7 @@ export async function buildPages(): Promise<void> {
   const python = venvPython();
   const yamlPath = path.relative(ROOT_DIR, CV_YAML);
 
-  await $`${python} -m rendercv render ${yamlPath} --dont-generate-pdf --dont-generate-typst --dont-generate-png --dont-generate-markdown`;
+  await $`${python} -m rendercv render ${yamlPath} --dont-generate-pdf --dont-generate-typst --dont-generate-png`;
 
   await fs.mkdir(SITE_DIR, { recursive: true });
   await fs.copyFile(CV_HTML, SITE_INDEX);
