@@ -143,5 +143,6 @@ vite.config.ts.timestamp-*
 .venv
 
 rendercv_output
+site
 resume-matcher
 .rendercv-seed-hash

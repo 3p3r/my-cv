@@ -15,6 +15,13 @@ export const CV_PDF = path.join(
   "Sepehr_Laal_CV.pdf",
 );
 export const CV_MD = path.join(rootDir, "rendercv_output", "Sepehr_Laal_CV.md");
+export const CV_HTML = path.join(
+  rootDir,
+  "rendercv_output",
+  "Sepehr_Laal_CV.html",
+);
+export const SITE_DIR = path.join(rootDir, "site");
+export const SITE_INDEX = path.join(SITE_DIR, "index.html");
 export const README_MD = path.join(rootDir, "README.md");
 export const SEED_HASH_FILE = path.join(rootDir, ".rendercv-seed-hash");
 export const VENV_DIR = path.join(rootDir, ".venv");

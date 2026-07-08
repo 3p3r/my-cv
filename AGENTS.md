@@ -6,6 +6,8 @@ Personal CV ([RenderCV](https://docs.rendercv.com)) + [Resume-Matcher](https://g
 
 **Published resume:** [`README.md`](README.md) is generated from RenderCV on `npm run build` — do not edit it by hand.
 
+**Live CV site:** [https://3p3r.github.io/mycv/](https://3p3r.github.io/mycv/) — HTML deployed via GitHub Actions on every push to `main`.
+
 ## Prerequisites
 
 - Python 3.12+
@@ -55,6 +57,20 @@ Outputs:
 - `rendercv_output/Sepehr_Laal_CV.pdf`
 - `README.md` (markdown resume for GitHub)
 
+## GitHub Pages
+
+The workflow [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) renders HTML-only output and publishes to GitHub Pages.
+
+- **URL:** https://3p3r.github.io/mycv/
+- **Trigger:** every push to `main` (or manual run)
+- **One-time setup:** repo **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+Preview the same HTML locally:
+
+```bash
+npm run build:pages    # writes site/index.html
+```
+
 ## Scripts
 
 Orchestration is TypeScript via [zx](https://github.com/google/zx) and [tsx](https://github.com/privatenumber/tsx) — no shell scripts, no `tsc` step.
@@ -63,6 +79,7 @@ Orchestration is TypeScript via [zx](https://github.com/google/zx) and [tsx](htt
 |---------|--------|
 | `npm run setup` | `scripts/setup.ts` |
 | `npm run build` | `scripts/build.ts` |
+| `npm run build:pages` | `scripts/build-pages.ts` — HTML for GitHub Pages preview |
 | `npm run seed` | `scripts/seed-master-resume.ts` |
 | `npm start` | `scripts/start.ts` |
 | `npm run stop` | `scripts/stop.ts` |

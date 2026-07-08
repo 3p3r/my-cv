@@ -7,6 +7,7 @@
     "postinstall": "tsx scripts/setup.ts",
     "setup": "tsx scripts/setup.ts",
     "build": "tsx scripts/build.ts",
+    "build:pages": "tsx scripts/build-pages.ts",
     "watch": "tsx scripts/build.ts --watch",
     "seed": "tsx scripts/seed-master-resume.ts",
     "backend": "tsx scripts/backend.ts",
@@ -27,7 +28,7 @@
   "bugs": {
     "url": "https://github.com/3p3r/mycv/issues"
   },
-  "homepage": "https://github.com/3p3r/mycv#readme",
+  "homepage": "https://3p3r.github.io/mycv/",
   "devDependencies": {
     "@biomejs/biome": "^2.5.2",
     "tsx": "^4.23.0",
