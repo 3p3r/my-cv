@@ -1,4 +1,4 @@
-import { stopServers } from './lib/processes.ts'
+import { stopServers } from "./lib/processes.ts";
 
-await stopServers()
-console.log('Stopped servers on ports 8000 and 3000.')
+await stopServers();
+console.log("Stopped servers on ports 8000 and 3000.");

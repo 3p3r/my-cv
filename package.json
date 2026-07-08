@@ -13,7 +13,9 @@
     "frontend": "tsx scripts/frontend.ts",
     "start": "tsx scripts/start.ts",
     "stop": "tsx scripts/stop.ts",
-    "test:llm": "tsx scripts/test-llm.ts"
+    "test:llm": "tsx scripts/test-llm.ts",
+    "format": "biome format --write",
+    "lint": "biome lint --fix"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,7 @@
   },
   "homepage": "https://github.com/3p3r/mycv#readme",
   "devDependencies": {
+    "@biomejs/biome": "^2.5.2",
     "tsx": "^4.23.0",
     "zx": "^8.8.5"
   }

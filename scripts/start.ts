@@ -1,31 +1,36 @@
-import { spawnBackend, spawnFrontend, stopServers, waitForExit } from './lib/processes.ts'
-import { buildCv } from './build.ts'
-import { seedMasterResume } from './seed-master-resume.ts'
+import {
+  spawnBackend,
+  spawnFrontend,
+  stopServers,
+  waitForExit,
+} from "./lib/processes.ts";
+import { buildCv } from "./build.ts";
+import { seedMasterResume } from "./seed-master-resume.ts";
 
-await stopServers()
+await stopServers();
 
-let backend = spawnBackend()
-let frontend: ReturnType<typeof spawnFrontend> | null = null
+const backend = spawnBackend();
+let frontend: ReturnType<typeof spawnFrontend> | null = null;
 
 const shutdown = async (signal?: string) => {
   if (signal) {
-    console.log(`\nReceived ${signal}, shutting down...`)
+    console.log(`\nReceived ${signal}, shutting down...`);
   }
-  backend.kill('SIGTERM')
-  frontend?.kill('SIGTERM')
-  await stopServers()
-  process.exit(0)
-}
+  backend.kill("SIGTERM");
+  frontend?.kill("SIGTERM");
+  await stopServers();
+  process.exit(0);
+};
 
-process.on('SIGINT', () => void shutdown('SIGINT'))
-process.on('SIGTERM', () => void shutdown('SIGTERM'))
+process.on("SIGINT", () => void shutdown("SIGINT"));
+process.on("SIGTERM", () => void shutdown("SIGTERM"));
 
 try {
-  await buildCv()
-  await seedMasterResume()
-  frontend = spawnFrontend({ foreground: true })
-  await waitForExit(frontend)
+  await buildCv();
+  await seedMasterResume();
+  frontend = spawnFrontend({ foreground: true });
+  await waitForExit(frontend);
 } finally {
-  backend.kill('SIGTERM')
-  await stopServers()
+  backend.kill("SIGTERM");
+  await stopServers();
 }

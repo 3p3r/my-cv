@@ -1,3 +1,3 @@
-import { spawnFrontend } from './lib/processes.ts'
+import { spawnFrontend } from "./lib/processes.ts";
 
-await spawnFrontend({ foreground: true })
+await spawnFrontend({ foreground: true });
