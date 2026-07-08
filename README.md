@@ -71,9 +71,41 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 - AWS Certified Developer Associate (2019) — Verification 02514XVKMJBQQ2WS
 
 # Experience
+## **Citi Bank**, Senior VP of AI/ML Engineering and RL Infrastructure -- Portland, OR / remote
+
+2025 – present
+
+- Deployed and managed a multi-tenant n8n infrastructure on OpenShift
+
+- Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs
+
+- Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers
+
+- Architected and Deployed OpenCode, OpenChamber, Web Fetch and Markdown conversion services for internal use, enabling 10000+ engineers to use them in their workflows
+
+- Automated and deployed Cloakbrowser for agentic web browsing and data extraction internally
+
+- Integrated DeepEval into n8n and LiteLLM for transparent evals and fine tuning of AI/ML models
+
+- Deployed Prompt Caching services to reduce costs and improve performance of inference across orgs
+
+
+
+## **Citi Bank**, Senior VP of Cloud Security and Infrastructure -- Portland, OR / remote
+
+2020 – 2025
+
+- Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory
+
+- 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
+
+- Designed, architected, and implemented a sub milisecond LALR parser engine that reduced cost of processing billions of AWS Event Rules on all AWS accounts by a factor of $1M per month, using Tree Sitter and Rust
+
+
+
 ## **Stelligent Systems LLC**, DevOps Automation Engineer II -- Portland, OR
 
-July 2019 – present
+2019 – 2020
 
 - Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment
 
@@ -85,7 +117,7 @@ July 2019 – present
 
 ## **RootStream**, Co-Founder and CTO -- Portland, OR
 
-2018 – present
+2018 – 2019
 
 - Helped DotDotDash deploy RootStream on premises, replicating the AWS environment on-site for p2p video streaming during Covid-19
 
@@ -107,7 +139,7 @@ July 2019 – present
 
 ## **Virtulabs / Independent**, Software Consulting and Contracting -- Portland, OR
 
-Aug 2017 – July 2019
+2017 – 2019
 
 - Used Vuforia and Vuforia Cloud to create augmented reality experiences
 
@@ -170,6 +202,63 @@ Aug 2017 – July 2019
 - Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer
 
 - Developed low-level graphical applications with OpenGL and C++11
+
+
+
+# Open Source Projects
+## **[Sparse Dynamics](https://sparsedynamix.com/)**
+
+2026
+
+Antivirus tooling for AI harnesses — [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development
+
+
+
+## **[pleadable-cowork](https://github.com/virtulabs/pleadable-cowork)**
+
+2026
+
+Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind); multi-threaded conversations with filesystem support; live at [app.pleadable.chat](https://app.pleadable.chat)
+
+
+
+## **[webzme](https://github.com/zorse-code/webzme)**
+
+2023
+
+VS Code extension — Zorse CloudFusion visual editor for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates
+
+
+
+## **[tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule)**
+
+2023
+
+Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies
+
+
+
+## **[wasabio](https://github.com/3p3r/wasabio)**
+
+2024
+
+WASM + SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript)
+
+
+
+## **[fakettp](https://github.com/3p3r/fakettp)**
+
+2023
+
+Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter
+
+
+
+## **[pf-localization](https://github.com/3p3r/pf-localization)**
+
+2017
+
+CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research
 
 
 
