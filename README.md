@@ -6,25 +6,36 @@
 
 
 # Education
-## **Portland State University**, MSc. in Signal Processing -- Portland, OR
+## **Portland State University**, MSc. in *Signal Processing* -- Portland, OR
 
 **MSc.**
 
 
-2017 – May 2023
+2019 – 2023
 
-- Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) — SLAM for tracking human kinematics; advisor James McNames
+- Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/)
+
+  - SLAM for tracking human kinematics; advisor James McNames
 
 - First-author article in Sensors (Dec 2022) based on thesis research
 
 
 
-## **Portland State University**, BSc. in Electrical Engineering -- Portland, OR
+## **Portland State University**, BSc. in *Electrical Engineering* -- Portland, OR
 
 **BSc.**
 
 
-2013 – 2017
+2016 – 2018
+
+
+
+## **Portland Community College**, ASc. in *General Engineering* -- Portland, OR
+
+**ASc.**
+
+
+2013 – 2015
 
 
 
@@ -66,12 +77,12 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 
 # Certifications
-- AWS Certified DevOps Engineer Professional (2019) — Verification RNXRXBF1F2QE1C59
+- AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59
 
-- AWS Certified Developer Associate (2019) — Verification 02514XVKMJBQQ2WS
+- AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS
 
 # Experience
-## **Citi Bank**, Senior VP of AI/ML Engineering and RL Infrastructure -- Portland, OR / remote
+## **Citi Bank**, *Senior VP of AI/ML Engineering and RL Infrastructure* -- Portland, OR
 
 2025 – present
 
@@ -91,7 +102,7 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 
 
-## **Citi Bank**, Senior VP of Cloud Security and Infrastructure -- Portland, OR / remote
+## **Citi Bank**, *Senior VP of Cloud Security and Infrastructure* -- Portland, OR
 
 2020 – 2025
 
@@ -101,13 +112,29 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - Designed, architected, and implemented a sub milisecond LALR parser engine that reduced cost of processing billions of AWS Event Rules on all AWS accounts by a factor of $1M per month, using Tree Sitter and Rust
 
+- Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
 
 
-## **Stelligent Systems LLC**, DevOps Automation Engineer II -- Portland, OR
+
+## **Monada Inc.**, *Programming Language Architect* -- Tel Aviv, Israel
+
+2022 – 2023
+
+- Architected and delivered the [first version of the WingLang reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polymorphic cloud applications.
+
+- Researched and implemented a transparent type system for WingLang to interoperate with the JSII ecosystem.
+
+- Collaborated with engineers and researchers across the world to build the WingLang compiler and runtime, implementing the core specification.
+
+
+
+## **Stelligent Systems LLC**, *DevOps Automation Engineer II* -- Portland, OR
 
 2019 – 2020
 
 - Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment
+
+- Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions
 
 - Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module
 
@@ -115,29 +142,25 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 
 
-## **RootStream**, Co-Founder and CTO -- Portland, OR
+## **RootStream**, *Co-Founder and CTO* -- San Francisco, CA
 
 2018 – 2019
 
-- Helped DotDotDash deploy RootStream on premises, replicating the AWS environment on-site for p2p video streaming during Covid-19
+- Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19
 
-- Architected and implemented a serverless WebRTC video ingestion platform
+- Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda
 
-- Optimized the build pipeline using Docker, reducing overhead from hours to minutes
+- Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes
 
-- Incorporated SQS and API Gateway WebSockets to scale platform microservices
+- Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments
 
-- Automated generic-kernel Ubuntu AMI creation using Packer and CodeBuild
+- Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption
 
-- Decoupled video ingestion from consumption with Kinesis Video Streams
-
-- Used Amazon FSx for Lustre to back up machine learning output data into S3 buckets
-
-- Used Drone CI to automate building Docker images up to 15GB in size
+- Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime
 
 
 
-## **Virtulabs / Independent**, Software Consulting and Contracting -- Portland, OR
+## **Virtulabs LLC.**, *Software Consulting and Contracting* -- San Francisco, CA
 
 2017 – 2019
 
@@ -145,11 +168,9 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - Used HoloLens and Unity3D to create medical-related mixed AR experiences
 
-- Leveraged Unity Cloud Build to automate Unity build pipelines
-
 - Used ARCore Cloud Anchors to create shared AR experiences on Android
 
-- Used Expo and React Native to make an app that rewards users for walking
+- Used Expo and React Native to make an app that rewards users for walking (Semler Heart)
 
 - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
 
@@ -159,21 +180,19 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 
 
-## **AWS Elemental Technologies**, Software Development Engineer -- Portland, OR
+## **AWS Elemental Technologies**, *Software Development Engineer II* -- Portland, OR
 
 2017 – 2018
 
-- Led a research project creating an automated golden-ear testing system, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
+- Led a research project creating an automated golden-ear testing system in audio encoders, resluting in discovering multi-decade old bugs in legacy encoders, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
 
-- Implemented Waveprint efficient wavelet-based audio fingerprinting in CudaC++
-
-- Used automated golden-ear testing to reveal undiscovered bugs in the audio transcoder
+- Implemented Waveprint, an efficient wavelet-based audio fingerprinting systemin Cuda C++
 
 - Implemented new features and fixed bugs in the Elemental Live product
 
 
 
-## **Helio Interactive PDX**, Software Engineer -- Portland, OR
+## **Helio Interactive PDX**, *Software Engineer* -- Portland, OR
 
 2015 – 2017
 
@@ -185,17 +204,21 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - Used Unity3D to make custom software and solutions for entertainment events
 
-- Developed shaders using GLSL, HLSL, and NVIDIA Cg for a realtime renderer
+- Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers
+
+- Developed a replica of Restart On Crash for Unity3D to handle crashes in production
+
+- Collaborated with designers and artists to create immersive experiences for events and exhibitions
 
 
 
-## **Downstream PDX**, Software Engineer -- Portland, OR
+## **Downstream PDX**, *Junior Software Engineer* -- Portland, OR
 
 2014 – 2015
 
-- Worked on a multi-computer renderer able to render massive pixel spaces across PCs
+- Worked on a multi-computer renderer able to render massive pixel spaces across network bound PCs with descrete NVidia GPUs, creating frame-accurate video streams for live events and exhibitions across displays
 
-- Worked on the protocol used by the multi-computer renderer to render synced video
+- Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
 
 - Used C++, Cinder, and OpenFrameworks to create custom entertainment software
 
@@ -210,23 +233,23 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 2026
 
-Antivirus tooling for AI harnesses — [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development
+Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development
 
 
 
-## **[pleadable-cowork](https://github.com/virtulabs/pleadable-cowork)**
+## **[Pleadable Agent](https://github.com/virtulabs/pleadable-cowork)**
 
-2026
+2025
 
-Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind); multi-threaded conversations with filesystem support; live at [app.pleadable.chat](https://app.pleadable.chat)
+Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind) - multi-threaded conversations with in-browser privacy-preserving filesystem support; aimed at patent and trademark attorneys to use AI to draft and review applications. Focus on accuracy, truthfulness, and compliance with USPTO IP laws.
 
 
 
-## **[webzme](https://github.com/zorse-code/webzme)**
+## **[Cloud GME](https://github.com/zorse-code/webzme)**
 
 2023
 
-VS Code extension — Zorse CloudFusion visual editor for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates
+Web GME bundled into a local and offline VS Code extension - Generic Modeling Environment (GME) specialized for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates
 
 
 
@@ -234,7 +257,7 @@ VS Code extension — Zorse CloudFusion visual editor for AWS CloudFormation, Az
 
 2023
 
-Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies
+Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies on the fly
 
 
 
@@ -242,7 +265,7 @@ Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a com
 
 2024
 
-WASM + SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript)
+WASM + singular SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript) - holds a real linux filesystem in memory for cross tab, cross window multi-threaded web apps
 
 
 
@@ -250,7 +273,7 @@ WASM + SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatibl
 
 2023
 
-Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter
+Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter - designed for usage in bundlers to run server side apps in the browser
 
 
 
@@ -258,29 +281,25 @@ Drop-in Node `http` module replacement implemented in a service worker; runs Exp
 
 2017
 
-CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research
+CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels
 
 
 
 # Skills
-**Primary Languages:** ANSI C / C++, JavaScript
+**Primary Languages:** ANSI C / C++, JavaScript, TypeScript, Rust
 
-**Other Languages:** TypeScript, Python, PHP, GLSL, HLSL, Cg, C#
+**Other Languages:** Python, PHP, GLSL, HLSL, Cg, C#, Shell, Matlab
 
 **Tooling & Libraries:** Unity3D, UE4, ASP.NET, React, React Native, Expo SDK, CUDA, MQTT, RabbitMQ, WebSockets, OpenGL, Terraform, GStreamer, FFmpeg, DroneCI, CircleCI, Jenkins, Git, GitHub
 
-**Containers:** Docker, ECS, ECR
+**Containers & Sandboxing:** Docker, ECS, ECR, WASM, Web Workers, Landlocks
 
-**Databases:** MongoDB, DocumentDB, MySQL, MSSQL, SQLite
+**Databases:** MongoDB, DocumentDB, MySQL, MSSQL, SQLite, PostgreSQL, Redis
 
-**Operating Systems:** Ubuntu, Amazon Linux, CentOS, Windows
+**Operating Systems:** Ubuntu, Amazon Linux, CentOS, Red Hat Enterprise Linux, Windows
 
-**AWS Infrastructure:** CloudFormation, AWS CDK
+**Cloud Infrastructure:** CloudFormation, AWS CDK, Azure, GCP, Alibaba, Terraform, Pulumi
 
-**AWS Compute & Storage:** EC2, Lightsail, ECS, Lambda, Elastic Beanstalk, S3, EBS
+**AI Harness & RL Infrastructure:** LiteLLM, n8n, OpenCode, OpenChamber, Web Fetch, Markdown conversion, DeepEval, Prompt Caching, Cloakbrowser, RLHF, RL, Lakera
 
-**AWS Database & Networking:** RDS, DynamoDB, DocumentDB, CloudFront, Route 53, API Gateway
-
-**AWS DevOps & Management:** CodeCommit, CodeBuild, CodePipeline, CodeDeploy, CloudWatch, CloudTrail, X-Ray, Auto Scaling
-
-**AWS Media & ML:** Elastic Transcoder, Kinesis Video, Elemental/Media services, Transcribe, Translate
+**AI Local Inference:** Ollama, vLLM, Qwen family, Gemma 4 architecture, LLamaFile, Llama.cpp, HF transformers

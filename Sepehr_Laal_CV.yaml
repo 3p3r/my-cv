@@ -15,19 +15,25 @@ cv:
   sections:
     education:
       - institution: Portland State University
-        area: Signal Processing
+        area: *Signal Processing*
         degree: MSc.
-        start_date: 2017
-        end_date: 2023-05
+        start_date: 2019
+        end_date: 2023
         location: Portland, OR
         highlights:
-          - 'Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) — SLAM for tracking human kinematics; advisor James McNames'
+          - 'Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) - SLAM for tracking human kinematics; advisor James McNames'
           - 'First-author article in Sensors (Dec 2022) based on thesis research'
       - institution: Portland State University
-        area: Electrical Engineering
+        area: *Electrical Engineering*
         degree: BSc.
+        start_date: 2016
+        end_date: 2018
+        location: Portland, OR
+      - institution: Portland Community College
+        area: *General Engineering*
+        degree: ASc.
         start_date: 2013
-        end_date: 2017
+        end_date: 2015
         location: Portland, OR
     publications:
       - title: 'BodySLAM: Feasibility of Tracking Human Kinematics with Simultaneous Localization and Mapping (SLAM)'
@@ -58,14 +64,14 @@ cv:
         date: 2021-09
         summary: Granted patent for media validation using Wavelet Decomp fingerprinting; sole inventor; AWS Elemental
     certifications:
-      - bullet: 'AWS Certified DevOps Engineer Professional (2019) — Verification RNXRXBF1F2QE1C59'
-      - bullet: 'AWS Certified Developer Associate (2019) — Verification 02514XVKMJBQQ2WS'
+      - bullet: 'AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59'
+      - bullet: 'AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS'
     experience:
       - company: Citi Bank
-        position: Senior VP of AI/ML Engineering and RL Infrastructure
+        position: *Senior VP of AI/ML Engineering and RL Infrastructure*
         start_date: 2025
         end_date: present
-        location: Portland, OR / remote
+        location: Portland, OR
         highlights:
           - Deployed and managed a multi-tenant n8n infrastructure on OpenShift
           - Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs
@@ -75,63 +81,70 @@ cv:
           - Integrated DeepEval into n8n and LiteLLM for transparent evals and fine tuning of AI/ML models
           - Deployed Prompt Caching services to reduce costs and improve performance of inference across orgs
       - company: Citi Bank
-        position: Senior VP of Cloud Security and Infrastructure
+        position: *Senior VP of Cloud Security and Infrastructure*
         start_date: 2020
         end_date: 2025
-        location: Portland, OR / remote
+        location: Portland, OR
         highlights:
           - Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory
           - 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
           - Designed, architected, and implemented a sub milisecond LALR parser engine that reduced cost of processing billions of AWS Event Rules on all AWS accounts by a factor of $1M per month, using Tree Sitter and Rust
+          - Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
+      - company: Monada Inc.
+        position: *Programming Language Architect*
+        start_date: 2022
+        end_date: 2023
+        location: Tel Aviv, Israel
+        highlights:
+          - Architected and delivered the [first version of the WingLang reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polymorphic cloud applications.
+          - Researched and implemented a transparent type system for WingLang to interoperate with the JSII ecosystem.
+          - Collaborated with engineers and researchers across the world to build the WingLang compiler and runtime, implementing the core specification.
       - company: Stelligent Systems LLC
-        position: DevOps Automation Engineer II
+        position: *DevOps Automation Engineer II*
         start_date: 2019
         end_date: 2020
         location: Portland, OR
         highlights:
           - Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment
+          - Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions
           - Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module
           - Prepared technical documents and hosted a webinar for an internal hackathon at First Republic Bank in San Francisco
       - company: RootStream
-        position: Co-Founder and CTO
+        position: *Co-Founder and CTO*
         start_date: 2018
         end_date: 2019
-        location: Portland, OR
+        location: San Francisco, CA
         highlights:
-          - Helped DotDotDash deploy RootStream on premises, replicating the AWS environment on-site for p2p video streaming during Covid-19
-          - Architected and implemented a serverless WebRTC video ingestion platform
-          - Optimized the build pipeline using Docker, reducing overhead from hours to minutes
-          - Incorporated SQS and API Gateway WebSockets to scale platform microservices
-          - Automated generic-kernel Ubuntu AMI creation using Packer and CodeBuild
-          - Decoupled video ingestion from consumption with Kinesis Video Streams
-          - Used Amazon FSx for Lustre to back up machine learning output data into S3 buckets
-          - Used Drone CI to automate building Docker images up to 15GB in size
-      - company: Virtulabs / Independent
-        position: Software Consulting and Contracting
+          - Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19
+          - Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda
+          - Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes
+          - Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments
+          - Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption
+          - Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime
+      - company: Virtulabs LLC.
+        position: *Software Consulting and Contracting*
         start_date: 2017
         end_date: 2019
-        location: Portland, OR
+        location: San Francisco, CA
         highlights:
           - Used Vuforia and Vuforia Cloud to create augmented reality experiences
           - Used HoloLens and Unity3D to create medical-related mixed AR experiences
-          - Leveraged Unity Cloud Build to automate Unity build pipelines
           - Used ARCore Cloud Anchors to create shared AR experiences on Android
-          - Used Expo and React Native to make an app that rewards users for walking
+          - Used Expo and React Native to make an app that rewards users for walking (Semler Heart)
           - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
           - Used s3-fuse in production to back up artifacts and outputs into S3
           - Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects
       - company: AWS Elemental Technologies
-        position: Software Development Engineer
+        position: *Software Development Engineer II*
         start_date: 2017
         end_date: 2018
         location: Portland, OR
         highlights:
-          - Led a research project creating an automated golden-ear testing system, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
-          - Implemented Waveprint efficient wavelet-based audio fingerprinting in CudaC++
-          - Used automated golden-ear testing to reveal undiscovered bugs in the audio transcoder
+          - Led a research project creating an automated golden-ear testing system in audio encoders, resluting in discovering multi-decade old bugs in legacy encoders, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
+          - Implemented Waveprint, an efficient wavelet-based audio fingerprinting systemin Cuda C++
           - Implemented new features and fixed bugs in the Elemental Live product
       - company: Helio Interactive PDX
-        position: Software Engineer
+        position: *Software Engineer*
         start_date: 2015
         end_date: 2017
         location: Portland, OR
@@ -140,63 +153,61 @@ cv:
           - Used RabbitMQ and MQTT to create realtime IoT applications with limited connectivity
           - Used GStreamer to create multi-computer synchronized video playback for video walls
           - Used Unity3D to make custom software and solutions for entertainment events
-          - Developed shaders using GLSL, HLSL, and NVIDIA Cg for a realtime renderer
+          - Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers
+          - Developed a replica of Restart On Crash for Unity3D to handle crashes in production
+          - Collaborated with designers and artists to create immersive experiences for events and exhibitions
       - company: Downstream PDX
-        position: Software Engineer
+        position: *Junior Software Engineer*
         start_date: 2014
         end_date: 2015
         location: Portland, OR
         highlights:
-          - Worked on a multi-computer renderer able to render massive pixel spaces across PCs
-          - Worked on the protocol used by the multi-computer renderer to render synced video
+          - Worked on a multi-computer renderer able to render massive pixel spaces across network bound PCs with descrete NVidia GPUs, creating frame-accurate video streams for live events and exhibitions across displays
+          - Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
           - Used C++, Cinder, and OpenFrameworks to create custom entertainment software
           - Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer
           - Developed low-level graphical applications with OpenGL and C++11
     open_source_projects:
       - name: '[Sparse Dynamics](https://sparsedynamix.com/)'
         date: 2026
-        summary: 'Antivirus tooling for AI harnesses — [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development'
-      - name: '[pleadable-cowork](https://github.com/virtulabs/pleadable-cowork)'
-        date: 2026
-        summary: 'Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind); multi-threaded conversations with filesystem support; live at [app.pleadable.chat](https://app.pleadable.chat)'
-      - name: '[webzme](https://github.com/zorse-code/webzme)'
+        summary: 'Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development'
+      - name: '[Pleadable Agent](https://github.com/virtulabs/pleadable-cowork)'
+        date: 2025
+        summary: 'Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind) - multi-threaded conversations with in-browser privacy-preserving filesystem support; aimed at patent and trademark attorneys to use AI to draft and review applications. Focus on accuracy, truthfulness, and compliance with USPTO IP laws.'
+      - name: '[Cloud GME](https://github.com/zorse-code/webzme)'
         date: 2023
-        summary: 'VS Code extension — Zorse CloudFusion visual editor for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates'
+        summary: 'Web GME bundled into a local and offline VS Code extension - Generic Modeling Environment (GME) specialized for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates'
       - name: '[tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule)'
         date: 2023
-        summary: 'Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies'
+        summary: 'Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies on the fly'
       - name: '[wasabio](https://github.com/3p3r/wasabio)'
         date: 2024
-        summary: 'WASM + SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript)'
+        summary: 'WASM + singular SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript) - holds a real linux filesystem in memory for cross tab, cross window multi-threaded web apps'
       - name: '[fakettp](https://github.com/3p3r/fakettp)'
         date: 2023
-        summary: 'Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter'
+        summary: 'Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter - designed for usage in bundlers to run server side apps in the browser'
       - name: '[pf-localization](https://github.com/3p3r/pf-localization)'
         date: 2017
-        summary: 'CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research'
+        summary: 'CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels'
     skills:
       - label: Primary Languages
-        details: ANSI C / C++, JavaScript
+        details: ANSI C / C++, JavaScript, TypeScript, Rust
       - label: Other Languages
-        details: TypeScript, Python, PHP, GLSL, HLSL, Cg, C#
+        details: Python, PHP, GLSL, HLSL, Cg, C#, Shell, Matlab
       - label: Tooling & Libraries
         details: Unity3D, UE4, ASP.NET, React, React Native, Expo SDK, CUDA, MQTT, RabbitMQ, WebSockets, OpenGL, Terraform, GStreamer, FFmpeg, DroneCI, CircleCI, Jenkins, Git, GitHub
-      - label: Containers
-        details: Docker, ECS, ECR
+      - label: Containers & Sandboxing
+        details: Docker, ECS, ECR, WASM, Web Workers, Landlocks
       - label: Databases
-        details: MongoDB, DocumentDB, MySQL, MSSQL, SQLite
+        details: MongoDB, DocumentDB, MySQL, MSSQL, SQLite, PostgreSQL, Redis
       - label: Operating Systems
-        details: Ubuntu, Amazon Linux, CentOS, Windows
-      - label: AWS Infrastructure
-        details: CloudFormation, AWS CDK
-      - label: AWS Compute & Storage
-        details: EC2, Lightsail, ECS, Lambda, Elastic Beanstalk, S3, EBS
-      - label: AWS Database & Networking
-        details: RDS, DynamoDB, DocumentDB, CloudFront, Route 53, API Gateway
-      - label: AWS DevOps & Management
-        details: CodeCommit, CodeBuild, CodePipeline, CodeDeploy, CloudWatch, CloudTrail, X-Ray, Auto Scaling
-      - label: AWS Media & ML
-        details: Elastic Transcoder, Kinesis Video, Elemental/Media services, Transcribe, Translate
+        details: Ubuntu, Amazon Linux, CentOS, Red Hat Enterprise Linux, Windows
+      - label: Cloud Infrastructure
+        details: CloudFormation, AWS CDK, Azure, GCP, Alibaba, Terraform, Pulumi
+      - label: AI Harness & RL Infrastructure
+        details: LiteLLM, n8n, OpenCode, OpenChamber, Web Fetch, Markdown conversion, DeepEval, Prompt Caching, Cloakbrowser, RLHF, RL, Lakera
+      - label: AI Local Inference
+        details: Ollama, vLLM, Qwen family, Gemma 4 architecture, LLamaFile, Llama.cpp, HF transformers
 design:
   theme: harvard
   page:
