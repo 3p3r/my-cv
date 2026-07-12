@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Sepehr Laal
-  headline: Published author, patent holder and senior VP with 5+ years in FinServ and 5+ years in Cloud Infrastructure.
+  headline: First-author researcher and patent holder with an M.Sc. in Signal Processing and 10+ years engineering cloud applications, AI/ML/RL infrastructure and real-time sensing systems.
   location: Portland, OR
   email: human@shadowofsep.com
   website: https://shadowofsep.com
@@ -12,6 +12,9 @@ cv:
     - placeholder: Social
       url: https://x.com/3p3r_
       fontawesome_icon: x-twitter
+    - placeholder: ORCID
+      url: https://orcid.org/0000-0003-3165-4245
+      fontawesome_icon: orcid
   sections:
     education:
       - institution: Portland State University
@@ -21,7 +24,7 @@ cv:
         end_date: 2023
         location: Portland, OR
         highlights:
-          - 'Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/) - SLAM for tracking human kinematics; advisor James McNames'
+          - 'Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/); SLAM for tracking human kinematics; advisor James McNames'
           - 'First-author article in Sensors (Dec 2022) based on thesis research'
       - institution: Portland State University
         area: *Electrical Engineering*
@@ -29,6 +32,8 @@ cv:
         start_date: 2016
         end_date: 2018
         location: Portland, OR
+        highlights:
+          - Dean's Scholarship, Maseeh College of Engineering; awarded twice
       - institution: Portland Community College
         area: *General Engineering*
         degree: ASc.
@@ -62,10 +67,9 @@ cv:
         journal: US 11,134,279 B1, Amazon Technologies Inc
         url: https://patents.google.com/patent/US11134279B1/en
         date: 2021-09
-        summary: Granted patent for media validation using Wavelet Decomp fingerprinting; sole inventor; AWS Elemental
-    certifications:
-      - bullet: 'AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59'
-      - bullet: 'AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS'
+        summary: Granted patent for media validation using wavelet decomposition fingerprinting; sole inventor; AWS Elemental
+    honors_and_awards:
+      - bullet: 'Dean''s Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)'
     experience:
       - company: Citi Bank
         position: *Senior VP of AI/ML Engineering and RL Infrastructure*
@@ -76,10 +80,11 @@ cv:
           - Deployed and managed a multi-tenant n8n infrastructure on OpenShift
           - Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs
           - Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers
-          - Architected and Deployed OpenCode, OpenChamber, Web Fetch and Markdown conversion services for internal use, enabling 10000+ engineers to use them in their workflows
-          - Automated and deployed Cloakbrowser for agentic web browsing and data extraction internally
-          - Integrated DeepEval into n8n and LiteLLM for transparent evals and fine tuning of AI/ML models
-          - Deployed Prompt Caching services to reduce costs and improve performance of inference across orgs
+          - Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows
+          - Deployed isolated browser-automation infrastructure for agentic browsing and data extraction
+          - Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning
+          - Deployed prompt-caching services to reduce inference cost and latency across organizations
+          - Mentor junior engineers on AI/ML infrastructure, system design, and engineering practices
       - company: Citi Bank
         position: *Senior VP of Cloud Security and Infrastructure*
         start_date: 2020
@@ -88,7 +93,7 @@ cv:
         highlights:
           - Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory
           - 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
-          - Designed, architected, and implemented a sub milisecond LALR parser engine that reduced cost of processing billions of AWS Event Rules on all AWS accounts by a factor of $1M per month, using Tree Sitter and Rust
+          - Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-sitter and Rust
           - Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
       - company: Monada Inc.
         position: *Programming Language Architect*
@@ -128,9 +133,9 @@ cv:
         location: San Francisco, CA
         highlights:
           - Used Vuforia and Vuforia Cloud to create augmented reality experiences
-          - Used HoloLens and Unity3D to create medical-related mixed AR experiences
+          - Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D
           - Used ARCore Cloud Anchors to create shared AR experiences on Android
-          - Used Expo and React Native to make an app that rewards users for walking (Semler Heart)
+          - Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native
           - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
           - Used s3-fuse in production to back up artifacts and outputs into S3
           - Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects
@@ -140,8 +145,8 @@ cv:
         end_date: 2018
         location: Portland, OR
         highlights:
-          - Led a research project creating an automated golden-ear testing system in audio encoders, resluting in discovering multi-decade old bugs in legacy encoders, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
-          - Implemented Waveprint, an efficient wavelet-based audio fingerprinting systemin Cuda C++
+          - Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
+          - Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++
           - Implemented new features and fixed bugs in the Elemental Live product
       - company: Helio Interactive PDX
         position: *Software Engineer*
@@ -162,7 +167,7 @@ cv:
         end_date: 2015
         location: Portland, OR
         highlights:
-          - Worked on a multi-computer renderer able to render massive pixel spaces across network bound PCs with descrete NVidia GPUs, creating frame-accurate video streams for live events and exhibitions across displays
+          - Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays
           - Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
           - Used C++, Cinder, and OpenFrameworks to create custom entertainment software
           - Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer
@@ -171,24 +176,30 @@ cv:
       - name: '[Sparse Dynamics](https://sparsedynamix.com/)'
         date: 2026
         summary: 'Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development'
-      - name: '[Pleadable Agent](https://github.com/virtulabs/pleadable-cowork)'
-        date: 2025
-        summary: 'Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind) - multi-threaded conversations with in-browser privacy-preserving filesystem support; aimed at patent and trademark attorneys to use AI to draft and review applications. Focus on accuracy, truthfulness, and compliance with USPTO IP laws.'
-      - name: '[Cloud GME](https://github.com/zorse-code/webzme)'
-        date: 2023
-        summary: 'Web GME bundled into a local and offline VS Code extension - Generic Modeling Environment (GME) specialized for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates'
+      - name: '[libslam](https://github.com/3p3r/libslam)'
+        date: 2018
+        summary: 'Heavily modified ORB-SLAM2 packaged as a reusable Linux library; foundational visual-SLAM infrastructure for the BodySLAM human-kinematics research'
+      - name: '[Cinder Doppler](https://github.com/3p3r/cinder_doppler)'
+        date: 2015
+        summary: 'Implementation of Microsoft Research''s SoundWave technique for motion tracking from Doppler shifts in reflected audio'
+      - name: '[Cinder Wavelets](https://github.com/3p3r/cinder_wavelets)'
+        date: 2016
+        summary: 'Real-time wavelet decomposition in Cinder with side-by-side FFT visualization; early signal-processing work related to later audio-fingerprinting research'
+      - name: '[livecam](https://github.com/3p3r/livecam)'
+        date: 2016
+        summary: 'Open-source high performance video streaming system built with GStreamer and Node.js'
       - name: '[tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule)'
         date: 2023
         summary: 'Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies on the fly'
-      - name: '[wasabio](https://github.com/3p3r/wasabio)'
-        date: 2024
-        summary: 'WASM + singular SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript) - holds a real linux filesystem in memory for cross tab, cross window multi-threaded web apps'
-      - name: '[fakettp](https://github.com/3p3r/fakettp)'
-        date: 2023
-        summary: 'Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter - designed for usage in bundlers to run server side apps in the browser'
       - name: '[pf-localization](https://github.com/3p3r/pf-localization)'
         date: 2017
         summary: 'CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels'
+    invited_talks:
+      - bullet: '[cdk-web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022'
+      - bullet: 'Hosted a technical webinar and prepared hackathon materials for First Republic Bank - San Francisco, 2019'
+    certifications:
+      - bullet: 'AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59'
+      - bullet: 'AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS'
     skills:
       - label: Primary Languages
         details: ANSI C / C++, JavaScript, TypeScript, Rust

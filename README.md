@@ -13,9 +13,7 @@
 
 2019 – 2023
 
-- Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/)
-
-  - SLAM for tracking human kinematics; advisor James McNames
+- Thesis: [BodySLAM](https://pdxscholar.library.pdx.edu/open_access_etds/6412/); SLAM for tracking human kinematics; advisor James McNames
 
 - First-author article in Sensors (Dec 2022) based on thesis research
 
@@ -27,6 +25,8 @@
 
 
 2016 – 2018
+
+- Dean's Scholarship, Maseeh College of Engineering; awarded twice
 
 
 
@@ -68,7 +68,7 @@ Journal article from thesis research (Special Issue on Smart and Personalized He
 
 Sept 2021
 
-Granted patent for media validation using Wavelet Decomp fingerprinting; sole inventor; AWS Elemental
+Granted patent for media validation using wavelet decomposition fingerprinting; sole inventor; AWS Elemental
 
 *Sepehr Laal*
 
@@ -76,10 +76,8 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 
 
-# Certifications
-- AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59
-
-- AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS
+# Honors and Awards
+- Dean's Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)
 
 # Experience
 ## **Citi Bank**, *Senior VP of AI/ML Engineering and RL Infrastructure* -- Portland, OR
@@ -92,13 +90,15 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers
 
-- Architected and Deployed OpenCode, OpenChamber, Web Fetch and Markdown conversion services for internal use, enabling 10000+ engineers to use them in their workflows
+- Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows
 
-- Automated and deployed Cloakbrowser for agentic web browsing and data extraction internally
+- Deployed isolated browser-automation infrastructure for agentic browsing and data extraction
 
-- Integrated DeepEval into n8n and LiteLLM for transparent evals and fine tuning of AI/ML models
+- Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning
 
-- Deployed Prompt Caching services to reduce costs and improve performance of inference across orgs
+- Deployed prompt-caching services to reduce inference cost and latency across organizations
+
+- Mentor junior engineers on AI/ML infrastructure, system design, and engineering practices
 
 
 
@@ -110,7 +110,7 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
 
-- Designed, architected, and implemented a sub milisecond LALR parser engine that reduced cost of processing billions of AWS Event Rules on all AWS accounts by a factor of $1M per month, using Tree Sitter and Rust
+- Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-sitter and Rust
 
 - Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
 
@@ -166,11 +166,11 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 - Used Vuforia and Vuforia Cloud to create augmented reality experiences
 
-- Used HoloLens and Unity3D to create medical-related mixed AR experiences
+- Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D
 
 - Used ARCore Cloud Anchors to create shared AR experiences on Android
 
-- Used Expo and React Native to make an app that rewards users for walking (Semler Heart)
+- Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native
 
 - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
 
@@ -184,9 +184,9 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 2017 – 2018
 
-- Led a research project creating an automated golden-ear testing system in audio encoders, resluting in discovering multi-decade old bugs in legacy encoders, granted [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
+- Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
 
-- Implemented Waveprint, an efficient wavelet-based audio fingerprinting systemin Cuda C++
+- Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++
 
 - Implemented new features and fixed bugs in the Elemental Live product
 
@@ -216,7 +216,7 @@ Granted patent for media validation using Wavelet Decomp fingerprinting; sole in
 
 2014 – 2015
 
-- Worked on a multi-computer renderer able to render massive pixel spaces across network bound PCs with descrete NVidia GPUs, creating frame-accurate video streams for live events and exhibitions across displays
+- Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays
 
 - Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
 
@@ -237,19 +237,35 @@ Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https:
 
 
 
-## **[Pleadable Agent](https://github.com/virtulabs/pleadable-cowork)**
+## **[libslam](https://github.com/3p3r/libslam)**
 
-2025
+2018
 
-Web-based AI agent interface with a Claude Cowork-style UI (React, LangChain, Tailwind) - multi-threaded conversations with in-browser privacy-preserving filesystem support; aimed at patent and trademark attorneys to use AI to draft and review applications. Focus on accuracy, truthfulness, and compliance with USPTO IP laws.
+Heavily modified ORB-SLAM2 packaged as a reusable Linux library; foundational visual-SLAM infrastructure for the BodySLAM human-kinematics research
 
 
 
-## **[Cloud GME](https://github.com/zorse-code/webzme)**
+## **[Cinder Doppler](https://github.com/3p3r/cinder_doppler)**
 
-2023
+2015
 
-Web GME bundled into a local and offline VS Code extension - Generic Modeling Environment (GME) specialized for AWS CloudFormation, Azure ARM, GCP Deployment Manager, and Alibaba ROS infrastructure templates
+Implementation of Microsoft Research's SoundWave technique for motion tracking from Doppler shifts in reflected audio
+
+
+
+## **[Cinder Wavelets](https://github.com/3p3r/cinder_wavelets)**
+
+2016
+
+Real-time wavelet decomposition in Cinder with side-by-side FFT visualization; early signal-processing work related to later audio-fingerprinting research
+
+
+
+## **[livecam](https://github.com/3p3r/livecam)**
+
+2016
+
+Open-source high performance video streaming system built with GStreamer and Node.js
 
 
 
@@ -261,22 +277,6 @@ Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a com
 
 
 
-## **[wasabio](https://github.com/3p3r/wasabio)**
-
-2024
-
-WASM + singular SharedArrayBuffer runtime for multi-threaded browser apps; spec-compatible shims for Node fs, localStorage, and EventEmitter (Rust, C, TypeScript) - holds a real linux filesystem in memory for cross tab, cross window multi-threaded web apps
-
-
-
-## **[fakettp](https://github.com/3p3r/fakettp)**
-
-2023
-
-Drop-in Node `http` module replacement implemented in a service worker; runs Express and socket.io in the browser without a network adapter - designed for usage in bundlers to run server side apps in the browser
-
-
-
 ## **[pf-localization](https://github.com/3p3r/pf-localization)**
 
 2017
@@ -284,6 +284,16 @@ Drop-in Node `http` module replacement implemented in a service worker; runs Exp
 CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels
 
 
+
+# Invited Talks
+- [cdk-web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022
+
+- Hosted a technical webinar and prepared hackathon materials for First Republic Bank - San Francisco, 2019
+
+# Certifications
+- AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59
+
+- AWS Certified Developer Associate (2019) - Verification 02514XVKMJBQQ2WS
 
 # Skills
 **Primary Languages:** ANSI C / C++, JavaScript, TypeScript, Rust
