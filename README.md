@@ -239,7 +239,7 @@ Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https:
 
 
 
-## **[libslam](https://github.com/3p3r/libslam)**
+## **[LibSLAM](https://github.com/3p3r/libslam)**
 
 2018
 
@@ -263,7 +263,7 @@ Real-time wavelet decomposition in Cinder with side-by-side FFT visualization; e
 
 
 
-## **[livecam](https://github.com/3p3r/livecam)**
+## **[LiveCam](https://github.com/3p3r/livecam)**
 
 2016
 
@@ -271,7 +271,7 @@ Open-source high performance video streaming system built with GStreamer and Nod
 
 
 
-## **[tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule)**
+## **[Tree Sitter EventRule](https://github.com/3p3r/tree-sitter-eventrule)**
 
 2023
 
@@ -279,7 +279,7 @@ Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a com
 
 
 
-## **[pf-localization](https://github.com/3p3r/pf-localization)**
+## **[Particle Filter Localization](https://github.com/3p3r/pf-localization)**
 
 2017
 

@@ -22,6 +22,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -46,34 +55,10 @@ jobs:
             --target "$GITHUB_SHA"
 
       - name: Prepare GitHub Pages
-        env:
-          NIGHTLY_PDF_URL: https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf
         run: |
           mkdir -p site
           cp rendercv_output/Sepehr_Laal_CV.html site/index.html
-          python - <<'PY'
-          import os
-          from pathlib import Path
-
-          path = Path("site/index.html")
-          html = path.read_text()
-          marker = next(
-              (
-                  candidate
-                  for candidate in ('<article class="markdown-body">', "<body>")
-                  if candidate in html
-              ),
-              None,
-          )
-          if marker is None:
-              raise SystemExit(f"Could not find the HTML body in {path}")
-
-          link = (
-              f'<p><a href="{os.environ["NIGHTLY_PDF_URL"]}">'
-              "Download resume (PDF)</a></p>"
-          )
-          path.write_text(html.replace(marker, f"{marker}\n{link}", 1))
-          PY
+          npx tsx scripts/enhance-site-html.ts site/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

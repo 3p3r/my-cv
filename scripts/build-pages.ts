@@ -9,20 +9,8 @@ import {
   SITE_DIR,
   SITE_INDEX,
 } from "./lib/constants.ts";
-import { pdfLinkHtml } from "./lib/pdf-link.ts";
+import { enhancePagesHtml } from "./lib/site-html.ts";
 import { venvPython } from "./lib/venv.ts";
-
-function injectPdfLink(html: string): string {
-  const marker = ['<article class="markdown-body">', "<body>"].find((value) =>
-    html.includes(value),
-  );
-
-  if (!marker) {
-    throw new Error("Could not find the HTML body in the rendered CV.");
-  }
-
-  return html.replace(marker, `${marker}\n${pdfLinkHtml()}`);
-}
 
 export async function buildPages(): Promise<void> {
   $.verbose = true;
@@ -35,7 +23,7 @@ export async function buildPages(): Promise<void> {
 
   await fs.mkdir(SITE_DIR, { recursive: true });
   const html = await fs.readFile(CV_HTML, "utf8");
-  await fs.writeFile(SITE_INDEX, injectPdfLink(html));
+  await fs.writeFile(SITE_INDEX, enhancePagesHtml(html));
   console.log(
     `Wrote ${path.relative(ROOT_DIR, SITE_INDEX)} (same output as GitHub Pages).`,
   );

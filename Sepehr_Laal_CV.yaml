@@ -176,7 +176,7 @@ cv:
       - name: '[Sparse Dynamics](https://sparsedynamix.com/)'
         date: 2026
         summary: 'Antivirus and anti prompt injection tooling for AI harnesses - [Guardian](https://github.com/Sparse-Dynamix/guardian) CLI scans agent skills before execution; [Trypanophobe](https://github.com/Sparse-Dynamix/trypanophobe) reference backend for policy and enforcement; Paladin (kernel-level harness safety) in development'
-      - name: '[libslam](https://github.com/3p3r/libslam)'
+      - name: '[LibSLAM](https://github.com/3p3r/libslam)'
         date: 2018
         summary: 'Heavily modified ORB-SLAM2 packaged as a reusable Linux library; foundational visual-SLAM infrastructure for the BodySLAM human-kinematics research'
       - name: '[Cinder Doppler](https://github.com/3p3r/cinder_doppler)'
@@ -185,13 +185,13 @@ cv:
       - name: '[Cinder Wavelets](https://github.com/3p3r/cinder_wavelets)'
         date: 2016
         summary: 'Real-time wavelet decomposition in Cinder with side-by-side FFT visualization; early signal-processing work related to later audio-fingerprinting research'
-      - name: '[livecam](https://github.com/3p3r/livecam)'
+      - name: '[LiveCam](https://github.com/3p3r/livecam)'
         date: 2016
         summary: 'Open-source high performance video streaming system built with GStreamer and Node.js'
-      - name: '[tree-sitter-eventrule](https://github.com/3p3r/tree-sitter-eventrule)'
+      - name: '[Tree Sitter EventRule](https://github.com/3p3r/tree-sitter-eventrule)'
         date: 2023
         summary: 'Tree-sitter grammar for AWS EventBridge event patterns; ships `rule2rego`, a compiler that transpiles Event Rules to OPA Rego policies on the fly'
-      - name: '[pf-localization](https://github.com/3p3r/pf-localization)'
+      - name: '[Particle Filter Localization](https://github.com/3p3r/pf-localization)'
         date: 2017
         summary: 'CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels'
     invited_talks:
