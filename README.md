@@ -2,9 +2,9 @@
 
 # Sepehr Laal's CV
 
-- Email: [human@shadowofsep.com](mailto:human@shadowofsep.com)
+- Email: [agent@3p3r.com](mailto:agent@3p3r.com)
 - Location: Portland, OR
-- Website: [shadowofsep.com](https://shadowofsep.com/)
+- Website: [3p3r.com](https://3p3r.com/)
 
 
 # Education
