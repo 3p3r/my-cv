@@ -21,14 +21,17 @@ const SITE_STYLES = `
     pointer-events: auto;
     position: absolute;
     top: 2.5em;
-    right: -3.5em;
+    right: -3.1em;
     transform: rotate(45deg);
+    display: block;
+    width: 15em;
+    text-align: center;
     background: #24292f;
     color: #fff;
     text-decoration: none;
     font: 600 11px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
         Arial, sans-serif;
-    padding: 0.6em 4em;
+    padding: 0.6em 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
