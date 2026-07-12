@@ -1,3 +1,5 @@
+[Download resume (PDF)](https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf)
+
 # Sepehr Laal's CV
 
 - Email: [human@shadowofsep.com](mailto:human@shadowofsep.com)

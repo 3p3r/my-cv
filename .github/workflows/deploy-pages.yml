@@ -1,4 +1,4 @@
-name: Deploy CV to GitHub Pages
+name: Deploy CV and nightly PDF
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,16 +30,52 @@ jobs:
       - name: Install RenderCV
         run: pip install "rendercv[full]==2.8"
 
-      - name: Render HTML CV
+      - name: Render CV
         run: |
-          rendercv render Sepehr_Laal_CV.yaml \
-            --dont-generate-pdf \
-            --dont-generate-typst \
-            --dont-generate-png
+          rendercv render Sepehr_Laal_CV.yaml --dont-generate-png
+
+      - name: Replace nightly PDF release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete nightly --yes --cleanup-tag || true
+          gh release create nightly \
+            rendercv_output/Sepehr_Laal_CV.pdf \
+            --title "Nightly CV PDF" \
+            --notes "Latest PDF from main (replaced on every push)." \
+            --target "$GITHUB_SHA"
+
+      - name: Prepare GitHub Pages
+        env:
+          NIGHTLY_PDF_URL: https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf
+        run: |
           mkdir -p site
           cp rendercv_output/Sepehr_Laal_CV.html site/index.html
+          python - <<'PY'
+          import os
+          from pathlib import Path
 
-      - name: Upload artifact
+          path = Path("site/index.html")
+          html = path.read_text()
+          marker = next(
+              (
+                  candidate
+                  for candidate in ('<article class="markdown-body">', "<body>")
+                  if candidate in html
+              ),
+              None,
+          )
+          if marker is None:
+              raise SystemExit(f"Could not find the HTML body in {path}")
+
+          link = (
+              f'<p><a href="{os.environ["NIGHTLY_PDF_URL"]}">'
+              "Download resume (PDF)</a></p>"
+          )
+          path.write_text(html.replace(marker, f"{marker}\n{link}", 1))
+          PY
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: site

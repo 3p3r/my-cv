@@ -23,6 +23,8 @@ export const CV_HTML = path.join(
 export const SITE_DIR = path.join(rootDir, "site");
 export const SITE_INDEX = path.join(SITE_DIR, "index.html");
 export const README_MD = path.join(rootDir, "README.md");
+export const NIGHTLY_PDF_URL =
+  "https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf";
 export const SEED_HASH_FILE = path.join(rootDir, ".rendercv-seed-hash");
 export const VENV_DIR = path.join(rootDir, ".venv");
 export const RESUME_MATCHER_DIR = path.join(rootDir, "resume-matcher");

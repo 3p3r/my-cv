@@ -59,10 +59,12 @@ Outputs:
 
 ## GitHub Pages
 
-The workflow [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) renders HTML-only output and publishes to GitHub Pages.
+The workflow [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) renders the HTML and PDF outputs, publishes the site to GitHub Pages, and replaces the `nightly` PDF release.
 
 - **URL:** https://3p3r.github.io/my-cv/
+- **PDF:** https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf
 - **Trigger:** every push to `main` (or manual run)
+- **Download links:** the Pages site and generated `README.md` link to the stable nightly PDF URL
 - **One-time setup:** repo **Settings → Pages → Build and deployment → Source: GitHub Actions**
 
 Preview the same HTML locally:
