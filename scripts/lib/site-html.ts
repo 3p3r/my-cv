@@ -42,11 +42,7 @@ function injectSiteStyles(html: string): string {
     return html.replace("</style>", `${SITE_STYLES}</style>`, 1);
   }
 
-  return html.replace(
-    "</head>",
-    `<style>${SITE_STYLES}</style>\n</head>`,
-    1,
-  );
+  return html.replace("</head>", `<style>${SITE_STYLES}</style>\n</head>`, 1);
 }
 
 function injectAfterBodyOpen(html: string, snippet: string): string {
