@@ -71,107 +71,107 @@ cv:
     honors_and_awards:
       - bullet: 'Dean''s Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)'
     experience:
-      - company: Citi Bank
+      - company: Citi Bank NA.
         position: *Senior VP of AI/ML Engineering and RL Infrastructure*
         start_date: 2025
         end_date: present
         location: Portland, OR
         highlights:
-          - Deployed and managed a multi-tenant n8n infrastructure on OpenShift
-          - Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs
-          - Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers
-          - Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows
-          - Deployed isolated browser-automation infrastructure for agentic browsing and data extraction
-          - Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning
-          - Deployed prompt-caching services to reduce inference cost and latency across organizations
-          - Mentor junior engineers on AI/ML infrastructure, system design, and engineering practices
-      - company: Citi Bank
+          - Deployed and managed a multi-tenant n8n infrastructure on OpenShift.
+          - Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs.
+          - Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers.
+          - Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows.
+          - Deployed isolated browser-automation infrastructure for agentic browsing and data extraction.
+          - Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning.
+          - Deployed prompt-caching services to reduce inference cost and latency across organizations.
+          - Mentored junior engineers on AI/ML infrastructure, system design, and engineering practices.
+      - company: Citi Bank NA.
         position: *Senior VP of Cloud Security and Infrastructure*
         start_date: 2020
         end_date: 2025
         location: Portland, OR
         highlights:
-          - Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory
-          - 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
-          - Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-sitter and Rust
-          - Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
+          - Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory.
+          - 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails.
+          - Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-Sitter and Rust.
+          - Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops and engineering excellence.
       - company: Monada Inc.
         position: *Programming Language Architect*
         start_date: 2022
         end_date: 2023
         location: Tel Aviv, Israel
         highlights:
-          - Architected and delivered the [first version of the WingLang reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polymorphic cloud applications.
+          - Architected and delivered the [first version of the WingLang syntax reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polyglot cloud applications.
           - Researched and implemented a transparent type system for WingLang to interoperate with the JSII ecosystem.
           - Collaborated with engineers and researchers across the world to build the WingLang compiler and runtime, implementing the core specification.
-      - company: Stelligent Systems LLC
+      - company: Stelligent Systems LLC.
         position: *DevOps Automation Engineer II*
         start_date: 2019
         end_date: 2020
         location: Portland, OR
         highlights:
-          - Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment
-          - Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions
-          - Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module
-          - Prepared technical documents and hosted a webinar for an internal hackathon at First Republic Bank in San Francisco
-      - company: RootStream
+          - Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment.
+          - Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions.
+          - Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module.
+          - Prepared technical documents and hosted a webinar for an internal hackathon at First Republic Bank in San Francisco.
+      - company: RootStream LLC.
         position: *Co-Founder and CTO*
         start_date: 2018
         end_date: 2019
         location: San Francisco, CA
         highlights:
-          - Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19
-          - Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda
-          - Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes
-          - Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments
-          - Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption
-          - Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime
+          - Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19.
+          - Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda.
+          - Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes.
+          - Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments.
+          - Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption.
+          - Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime.
       - company: Virtulabs LLC.
         position: *Software Consulting and Contracting*
         start_date: 2017
         end_date: 2019
         location: San Francisco, CA
         highlights:
-          - Used Vuforia and Vuforia Cloud to create augmented reality experiences
-          - Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D
-          - Used ARCore Cloud Anchors to create shared AR experiences on Android
-          - Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native
-          - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
-          - Used s3-fuse in production to back up artifacts and outputs into S3
-          - Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects
+          - Used Vuforia and Vuforia Cloud to create augmented reality experiences.
+          - Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D.
+          - Used ARCore Cloud Anchors to create shared AR experiences on Android.
+          - Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native.
+          - Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects.
+          - Used s3-fuse in production to back up artifacts and outputs into S3.
+          - Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects.
       - company: AWS Elemental Technologies
         position: *Software Development Engineer II*
         start_date: 2017
         end_date: 2018
         location: Portland, OR
         highlights:
-          - Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
-          - Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++
-          - Implemented new features and fixed bugs in the Elemental Live product
+          - Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation.
+          - Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++.
+          - Implemented new features and fixed bugs in the Elemental Live product.
       - company: Helio Interactive PDX
         position: *Software Engineer*
         start_date: 2015
         end_date: 2017
         location: Portland, OR
         highlights:
-          - Built an ASP.NET MVC CMS with multi-zone replicated SQL Server and offline support
-          - Used RabbitMQ and MQTT to create realtime IoT applications with limited connectivity
-          - Used GStreamer to create multi-computer synchronized video playback for video walls
-          - Used Unity3D to make custom software and solutions for entertainment events
-          - Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers
-          - Developed a replica of Restart On Crash for Unity3D to handle crashes in production
-          - Collaborated with designers and artists to create immersive experiences for events and exhibitions
+          - Built an ASP.NET MVC CMS with multi-zone replicated SQL Server and offline support.
+          - Used RabbitMQ and MQTT to create realtime IoT applications with limited connectivity.
+          - Used GStreamer to create multi-computer synchronized video playback for video walls.
+          - Used Unity3D to make custom software and solutions for entertainment events.
+          - Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers.
+          - Developed a replica of Restart On Crash for Unity3D to handle crashes in production.
+          - Collaborated with designers and artists to create immersive experiences for events and exhibitions.
       - company: Downstream PDX
         position: *Junior Software Engineer*
         start_date: 2014
         end_date: 2015
         location: Portland, OR
         highlights:
-          - Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays
-          - Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
-          - Used C++, Cinder, and OpenFrameworks to create custom entertainment software
-          - Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer
-          - Developed low-level graphical applications with OpenGL and C++11
+          - Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays.
+          - Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs.
+          - Used C++, Cinder, and OpenFrameworks to create custom entertainment software.
+          - Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer.
+          - Developed low-level graphical applications with OpenGL and C++11.
     open_source_projects:
       - name: '[Sparse Dynamics](https://sparsedynamix.com/)'
         date: 2026

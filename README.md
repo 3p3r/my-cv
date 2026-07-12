@@ -82,39 +82,39 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 - Dean's Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)
 
 # Experience
-## **Citi Bank**, *Senior VP of AI/ML Engineering and RL Infrastructure* -- Portland, OR
+## **Citi Bank NA.**, *Senior VP of AI/ML Engineering and RL Infrastructure* -- Portland, OR
 
 2025 – present
 
-- Deployed and managed a multi-tenant n8n infrastructure on OpenShift
+- Deployed and managed a multi-tenant n8n infrastructure on OpenShift.
 
-- Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs
+- Designed and implemented a scalable topology of LiteLLM deployments to standardize model access across orgs.
 
-- Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers
+- Architected and implemented a multi-tenant RL infrastructure to facilitate workflows of AI/ML engineers.
 
-- Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows
+- Architected and deployed shared agentic coding and data-conversion services, enabling 10,000+ engineers to incorporate AI into their workflows.
 
-- Deployed isolated browser-automation infrastructure for agentic browsing and data extraction
+- Deployed isolated browser-automation infrastructure for agentic browsing and data extraction.
 
-- Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning
+- Integrated model evaluation into AI workflows and gateways to support transparent evaluation and fine-tuning.
 
-- Deployed prompt-caching services to reduce inference cost and latency across organizations
+- Deployed prompt-caching services to reduce inference cost and latency across organizations.
 
-- Mentor junior engineers on AI/ML infrastructure, system design, and engineering practices
+- Mentored junior engineers on AI/ML infrastructure, system design, and engineering practices.
 
 
 
-## **Citi Bank**, *Senior VP of Cloud Security and Infrastructure* -- Portland, OR
+## **Citi Bank NA.**, *Senior VP of Cloud Security and Infrastructure* -- Portland, OR
 
 2020 – 2025
 
-- Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory
+- Designed, implemented and maintained a transparent Guardrail service for bank's AWS account inventory.
 
-- 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails
+- 4+ years of maintaining and operating a development kit for cloud engineers to create and deploy new guardrails.
 
-- Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-sitter and Rust
+- Designed, architected, and implemented a sub-millisecond LALR parser engine that reduced the cost of processing billions of AWS Event Rules across all AWS accounts by approximately $1M per month, using Tree-Sitter and Rust.
 
-- Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops
+- Mentored and trained junior engineers on AWS security, infrastructure best practices, and their journey into FinServ cloud ops and engineering excellence.
 
 
 
@@ -122,7 +122,7 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 2022 – 2023
 
-- Architected and delivered the [first version of the WingLang reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polymorphic cloud applications.
+- Architected and delivered the [first version of the WingLang syntax reference](https://github.com/winglang/wing/pull/148), a commercial programming language for building polyglot cloud applications.
 
 - Researched and implemented a transparent type system for WingLang to interoperate with the JSII ecosystem.
 
@@ -130,35 +130,35 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 
 
-## **Stelligent Systems LLC**, *DevOps Automation Engineer II* -- Portland, OR
+## **Stelligent Systems LLC.**, *DevOps Automation Engineer II* -- Portland, OR
 
 2019 – 2020
 
-- Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment
+- Architected an AWS solution for Schneider Electric involving AWS Direct Connect, legacy system APIs, incident response, telemetry, and AWS Cognito bridged with enterprise authentication in a 100% Lambda serverless environment.
 
-- Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions
+- Architected an AWS solution for First Republic Bank involving AWS S3, AWS CloudWatch, AWS Cloudtrail and automated threat intelligence pipelines using AWS Lambda and AWS Step Functions.
 
-- Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module
+- Led development of [Stelligent Mutato](https://github.com/stelligent/mutato), a serverless framework for deploying containerized applications into any AWS account in a Heroku-like workflow; patterns later appeared in the official AWS CDK pipelines module.
 
-- Prepared technical documents and hosted a webinar for an internal hackathon at First Republic Bank in San Francisco
+- Prepared technical documents and hosted a webinar for an internal hackathon at First Republic Bank in San Francisco.
 
 
 
-## **RootStream**, *Co-Founder and CTO* -- San Francisco, CA
+## **RootStream LLC.**, *Co-Founder and CTO* -- San Francisco, CA
 
 2018 – 2019
 
-- Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19
+- Helped DotDotDash deploy RootStream, a low latency WebRTC based video streaming platform during Covid-19.
 
-- Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda
+- Architected and implemented a serverless WebRTC video ingestion platform on AWS Lambda.
 
-- Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes
+- Optimized the Chromium build pipeline using Docker, reducing overhead from hours to minutes.
 
-- Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments
+- Incorporated SQS and API Gateway WebSockets to replicate Socket IO on AWS serverless deployments.
 
-- Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption
+- Automated Ubuntu kernel AMI creation using Packer and CodeBuild for video ingestion and consumption.
 
-- Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime
+- Used Kinesis Video Streams to ingest massive amounts of video data into S3, running inference on it in realtime.
 
 
 
@@ -166,19 +166,19 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 2017 – 2019
 
-- Used Vuforia and Vuforia Cloud to create augmented reality experiences
+- Used Vuforia and Vuforia Cloud to create augmented reality experiences.
 
-- Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D
+- Developed medical mixed-reality training and visualization experiences with HoloLens and Unity3D.
 
-- Used ARCore Cloud Anchors to create shared AR experiences on Android
+- Used ARCore Cloud Anchors to create shared AR experiences on Android.
 
-- Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native
+- Developed a health-behavior mobile app that rewards physical activity for Semler Heart using Expo and React Native.
 
-- Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects
+- Used CircleCI, DroneCI, GitHub, CodePipeline, and Heroku across multiple projects.
 
-- Used s3-fuse in production to back up artifacts and outputs into S3
+- Used s3-fuse in production to back up artifacts and outputs into S3.
 
-- Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects
+- Used Elastic Beanstalk, ECS, API Gateway, and Lambda across multiple projects.
 
 
 
@@ -186,11 +186,11 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 2017 – 2018
 
-- Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation
+- Led R&D of an automated golden-ear testing system for audio encoders, discovering decades-old defects in legacy encoders and contributing to sole-inventor patent [US 11,134,279 B1](https://patents.google.com/patent/US11134279B1/en) for media fingerprinting validation.
 
-- Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++
+- Implemented Waveprint, an efficient wavelet-based audio fingerprinting system in CUDA C++.
 
-- Implemented new features and fixed bugs in the Elemental Live product
+- Implemented new features and fixed bugs in the Elemental Live product.
 
 
 
@@ -198,19 +198,19 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 2015 – 2017
 
-- Built an ASP.NET MVC CMS with multi-zone replicated SQL Server and offline support
+- Built an ASP.NET MVC CMS with multi-zone replicated SQL Server and offline support.
 
-- Used RabbitMQ and MQTT to create realtime IoT applications with limited connectivity
+- Used RabbitMQ and MQTT to create realtime IoT applications with limited connectivity.
 
-- Used GStreamer to create multi-computer synchronized video playback for video walls
+- Used GStreamer to create multi-computer synchronized video playback for video walls.
 
-- Used Unity3D to make custom software and solutions for entertainment events
+- Used Unity3D to make custom software and solutions for entertainment events.
 
-- Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers
+- Developed shaders using GLSL, HLSL, and NVIDIA Cg for realtime renderers.
 
-- Developed a replica of Restart On Crash for Unity3D to handle crashes in production
+- Developed a replica of Restart On Crash for Unity3D to handle crashes in production.
 
-- Collaborated with designers and artists to create immersive experiences for events and exhibitions
+- Collaborated with designers and artists to create immersive experiences for events and exhibitions.
 
 
 
@@ -218,15 +218,15 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 2014 – 2015
 
-- Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays
+- Worked on a multi-computer renderer able to render massive pixel spaces across network-bound PCs with discrete NVIDIA GPUs, creating frame-accurate video streams for live events and exhibitions across displays.
 
-- Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs
+- Worked on the low level NTP protocol used by the multi-computer renderer to render synced video files across PCs.
 
-- Used C++, Cinder, and OpenFrameworks to create custom entertainment software
+- Used C++, Cinder, and OpenFrameworks to create custom entertainment software.
 
-- Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer
+- Used FFmpeg, VLC, and GStreamer to add multimedia capabilities to the renderer.
 
-- Developed low-level graphical applications with OpenGL and C++11
+- Developed low-level graphical applications with OpenGL and C++11.
 
 
 
