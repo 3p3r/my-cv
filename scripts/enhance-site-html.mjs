@@ -1,5 +1,9 @@
-import { GITHUB_PROFILE_URL } from "./constants.ts";
-import { pdfLinkHtml } from "./pdf-link.ts";
+import fs from "node:fs/promises";
+import path from "node:path";
+
+const NIGHTLY_PDF_URL =
+  "https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf";
+const GITHUB_PROFILE_URL = "https://github.com/3p3r";
 
 const SITE_STYLES = `
 .github-ribbon {
@@ -33,11 +37,15 @@ const SITE_STYLES = `
 }
 `;
 
-function githubRibbonHtml(): string {
+function pdfLinkHtml() {
+  return `<p><a href="${NIGHTLY_PDF_URL}">Download resume (PDF)</a></p>`;
+}
+
+function githubRibbonHtml() {
   return `<div class="github-ribbon"><a href="${GITHUB_PROFILE_URL}">Follow me on GitHub</a></div>`;
 }
 
-function injectSiteStyles(html: string): string {
+function injectSiteStyles(html) {
   if (html.includes("</style>")) {
     return html.replace("</style>", `${SITE_STYLES}</style>`, 1);
   }
@@ -45,7 +53,7 @@ function injectSiteStyles(html: string): string {
   return html.replace("</head>", `<style>${SITE_STYLES}</style>\n</head>`, 1);
 }
 
-function injectAfterBodyOpen(html: string, snippet: string): string {
+function injectAfterBodyOpen(html, snippet) {
   const marker = "<body>";
   if (!html.includes(marker)) {
     throw new Error("Could not find the HTML body in the rendered CV.");
@@ -54,7 +62,7 @@ function injectAfterBodyOpen(html: string, snippet: string): string {
   return html.replace(marker, `${marker}\n${snippet}`, 1);
 }
 
-function injectIntoArticle(html: string, snippet: string): string {
+function injectIntoArticle(html, snippet) {
   const marker = ['<article class="markdown-body">', "<body>"].find((value) =>
     html.includes(value),
   );
@@ -66,9 +74,14 @@ function injectIntoArticle(html: string, snippet: string): string {
   return html.replace(marker, `${marker}\n${snippet}`, 1);
 }
 
-export function enhancePagesHtml(html: string): string {
+export function enhancePagesHtml(html) {
   return injectIntoArticle(
     injectAfterBodyOpen(injectSiteStyles(html), githubRibbonHtml()),
     pdfLinkHtml(),
   );
 }
+
+const targetPath = path.resolve(process.argv[2] ?? "site/index.html");
+const html = await fs.readFile(targetPath, "utf8");
+await fs.writeFile(targetPath, enhancePagesHtml(html));
+console.log(`Enhanced ${path.relative(process.cwd(), targetPath)}.`);

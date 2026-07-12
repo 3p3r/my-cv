@@ -9,7 +9,6 @@ import {
   SITE_DIR,
   SITE_INDEX,
 } from "./lib/constants.ts";
-import { enhancePagesHtml } from "./lib/site-html.ts";
 import { venvPython } from "./lib/venv.ts";
 
 export async function buildPages(): Promise<void> {
@@ -22,8 +21,8 @@ export async function buildPages(): Promise<void> {
   await $`${python} -m rendercv render ${yamlPath} --dont-generate-pdf --dont-generate-typst --dont-generate-png`;
 
   await fs.mkdir(SITE_DIR, { recursive: true });
-  const html = await fs.readFile(CV_HTML, "utf8");
-  await fs.writeFile(SITE_INDEX, enhancePagesHtml(html));
+  await fs.copyFile(CV_HTML, SITE_INDEX);
+  await $`node scripts/enhance-site-html.mjs ${SITE_INDEX}`;
   console.log(
     `Wrote ${path.relative(ROOT_DIR, SITE_INDEX)} (same output as GitHub Pages).`,
   );

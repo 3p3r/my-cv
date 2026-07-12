@@ -36,9 +36,8 @@ async function installPythonDeps(): Promise<void> {
   await $`${python} -m pip install --upgrade pip`;
   if (await pathExists(path.join(ROOT_DIR, "requirements.txt"))) {
     await $`${python} -m pip install -r requirements.txt`;
-  } else {
-    await $`${python} -m pip install .`;
   }
+  await $`${python} -m pip install .`;
 }
 
 async function installPlaywright(): Promise<void> {
