@@ -1,10 +1,15 @@
 [Download resume (PDF)](https://github.com/3p3r/my-cv/releases/download/nightly/Sepehr_Laal_CV.pdf)
 
-# Sepehr Laal's CV
+# Portfolio of Sepehr Laal
+
+First-author researcher and patent holder with an M.Sc. in Signal Processing and 10+ years engineering cloud applications, AI/ML/RL infrastructure and real-time sensing systems.
 
 - Email: [agent@3p3r.com](mailto:agent@3p3r.com)
 - Location: Portland, OR
 - Website: [3p3r.com](https://3p3r.com/)
+- [Github](https://github.com/3p3r)
+- [Social](https://x.com/3p3r_)
+- [ORCID](https://orcid.org/0000-0003-3165-4245)
 
 
 # Education
@@ -288,7 +293,7 @@ CUDA particle-filter library for real-time camera pose estimation on checkerboar
 
 
 # Invited Talks
-- [cdk-web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022
+- [CDK-Web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022
 
 - Hosted a technical webinar and prepared hackathon materials for First Republic Bank - San Francisco, 2019
 

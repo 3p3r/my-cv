@@ -195,7 +195,7 @@ cv:
         date: 2017
         summary: 'CUDA particle-filter library for real-time camera pose estimation on checkerboard scenes without PnP; MATLAB orchestration, adapted from JEI 2014 camera-tracking research - written from scratch with custom CUDA kernels'
     invited_talks:
-      - bullet: '[cdk-web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022'
+      - bullet: '[CDK-Web and managing infrastructure directly in browser](https://www.cdkday.com/2022/) - CDK Day 2022, May 2022'
       - bullet: 'Hosted a technical webinar and prepared hackathon materials for First Republic Bank - San Francisco, 2019'
     certifications:
       - bullet: 'AWS Certified DevOps Engineer Professional (2019) - Verification RNXRXBF1F2QE1C59'
