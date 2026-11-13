@@ -84,6 +84,8 @@ Granted patent for media validation using wavelet decomposition fingerprinting; 
 
 
 # Honors and Awards
+- My code runs in space! Every time you watch a video streamed live from the International Space Station, its audio encoder received a patch from me before it went to space.
+
 - Dean's Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)
 
 # Experience

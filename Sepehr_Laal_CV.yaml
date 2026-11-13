@@ -69,6 +69,7 @@ cv:
         date: 2021-09
         summary: Granted patent for media validation using wavelet decomposition fingerprinting; sole inventor; AWS Elemental
     honors_and_awards:
+      - bullet: My code runs in space! Every time you watch a video streamed live from the International Space Station, its audio encoder received a patch from me before it went to space.
       - bullet: 'Dean''s Scholarship, Maseeh College of Engineering, Portland State University - awarded twice (2016-2018)'
     experience:
       - company: Citi Bank NA.
